@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to right, #6EE7B7, #3B82F6, #F87171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    height: 385px;
+    text-align: center;
+    padding: 20px;
+}
+
+.badge {
+    background-color: #D8B4FE;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    margin: -10px -5px;
+}
+
+.product-image {
+    width: 100px;
+    height: auto;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    padding-right: 110px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.add-cart {
+    background-color: #E5E7EB;
+    color: black;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buy {
+    background-color: #8B5CF6;
+    color: white;
+    width: 90px;
+    height: 40px;
+}
+#Shipped{
+    font-size: 15px;
+    font-weight: normal;
+    padding-right: 7px;
+}
+#dollar{
+    padding-right: 110px;
+}
